@@ -87,6 +87,9 @@ TON: 15.23 ($50.45)
 - `TIMEOUT` не должен быть установлен ниже 1 секунды во избежание ограничений API
 - Убедитесь, что `BOT_TOKEN`, `GROUP_CHAT_ID`, `TOKEN_ADDRESS` и `POOL_ID` действительны
 - Бот работает в отдельном потоке для мониторинга торговли одновременно с polling сообщений Telegram
+
+## Лицензия
+Проект распространяется под MIT License.
 ---
 # Telegram Bot for Token Trade Monitoring
 
@@ -177,3 +180,6 @@ New Holder: True
 - The `TIMEOUT` should not be set below 1 second to avoid API rate limits.
 - Ensure the `BOT_TOKEN`, `GROUP_CHAT_ID`, `TOKEN_ADDRESS`, and `POOL_ID` are valid.
 - The bot runs in a separate thread for trade monitoring while polling Telegram messages.
+
+## License
+The project extends to MIT License.
